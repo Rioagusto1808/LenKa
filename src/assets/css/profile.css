@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  width: 80%;
+  padding: 20px;
+  margin: 70px 50px 10px 50px;
+
+}
+
+.box1 {
+  flex: 0.7;
+  padding: 30px 20px;
+  height: 700px;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.box2 {
+  flex: 2;
+  padding: 30px 40px;
+  height: 1450px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box1 h1{
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+
+.box2 h1{
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+
+.data {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.potoprofil {
+  background-image: url("../images/andre.png");
+  width: 150px;
+  height: 150px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-size: cover; /* atau contain, etc. */
+  background-position: center; /* atau atur posisi sesuai kebutuhan */
+  background-repeat: no-repeat;
+}
+
+.potoprofil1 {
+  background-image: url("../images/andre2.png");
+  width: 150px;
+  height: 150px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-size: cover; /* atau contain, etc. */
+  background-position: center; /* atau atur posisi sesuai kebutuhan */
+  background-repeat: no-repeat;
+}
+
+
+.pengaturan {
+  margin-top: 50px;
+}
+
+.pengaturanisi {
+  text-align: left;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.out {
+  color: #EC0000;
+}
+
+.portofoto{
+  text-align: left;
+  color: #EC0000 ;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.portovideo {
+  text-align: left;
+  color: #EC0000;
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.box2 p{
+  color: black;
+}
+
+

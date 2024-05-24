@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: quantico;
+  src: url(./assets/fonts/Quantico-Regular.ttf);
+}
