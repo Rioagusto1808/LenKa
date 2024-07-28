@@ -1,7 +1,6 @@
 import {useState, useEffect} from "react";
 import axios from "axios";
 import "../assets/css/profile.css";
-import ModalEditProfile from "../component/Modaleditprofile";
 import Layoutlogin from "./Layoutlogin";
 import ModalHapusAkun from "../component/ModalHapusAkun";
 import { Card, } from 'flowbite-react';
@@ -57,7 +56,6 @@ const deleteProducts =async(vidId) =>{
         <div className="box1">
           <h1>Profil Saya</h1>
           <div className="potoprofil ml-auto mr-auto"></div>
-          <ModalEditProfile/>
           <h1>Andre Firmansyah</h1>
           <div className="data">
             <p>
